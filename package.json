@@ -1,0 +1,45 @@
+{
+  "name": "task-management",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@appwrite.io/pink": "^0.0.6",
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@types/node": "20.2.3",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "appwrite": "^11.0.0",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "lottie-react": "^2.4.0",
+    "next": "13.4.3",
+    "node-appwrite": "^9.0.0",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-csv-downloader": "^2.9.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "react-markdown": "^8.0.7",
+    "remark-gfm": "^3.0.1",
+    "sweetalert": "^2.1.2",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@types/react-csv": "^1.1.3"
+  }
+}
